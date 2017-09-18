@@ -22,10 +22,6 @@ body {
 	background-color: #af9560;
 }
 
-.navbar-toggle, .icon-bar {
-    border:1px solid #af9560;
-}
-
 /*Styling the landing page*/
 
 .landing-page {
@@ -76,6 +72,25 @@ body {
 }
 .contact-us:hover{
 	background-color: #0192d1;
+}
+
+.services-heading {
+	text-align: center;
+}
+
+.services {
+	padding: 50px;
+}
+
+.service-summary {
+	border-left: 4px solid #0192d1;
+	height: 250px;
+}
+
+.readmore {
+	position: absolute;
+    bottom: 0;
+	text-decoration: underline;
 }
 
 /*aboutus page*/
